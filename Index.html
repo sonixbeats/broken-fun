@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BROKEN FUN - SONIX</title>
+    <!--FAVICON-->
+    <link rel="icon" href="Public/images/Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Public/styles/style.css">
+</head>
+<body>
+    <section id="home">
+        <div class="navbar">
+            <a href="https://github.com/sonixbeats">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/sonixbts/">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://twitter.com/beats_sonix">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+        </div>
+
+        <p class="counterDate">
+            
+        </p>
+
+        <div class="circularTextAnim">
+            <p id="circulartext" style="height: 300px;
+                                        width: 300px;
+                                        position: relative;
+                                        animation: effect 8s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;">
+            </p>
+            <script>
+                const str = "Designed with Love by SoNix";
+                const text = document.getElementById("circulartext");
+                window.onload = function () {
+                    for (let i = 0; i < str.length; i++) {
+                        let span = document.createElement('span');
+                        span.innerHTML = str[i]
+                        text.appendChild(span);
+                        console.log(str[i])
+                        span.style.transform = `rotate(${11 * i}deg)`;
+                    }
+                }
+            </script>
+        </div>
+    </section>    
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/Public/Javascript/JS.js" type="module"></script>
+</body>
+</html>
