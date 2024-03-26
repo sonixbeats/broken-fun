@@ -14,7 +14,7 @@
     width: 100vw;
     background-color: antiquewhite;
     background-image: url(../images/text1.png), url(../images/Text2.png), url(../images/Back1.png), url(../images/Back2.png);
-    background-size: 73%, 60%, 108%, 125%;
+    background-size: 70%, 55%, 108%, 125%;
     background-position: center, center, center, center, center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@
         margin: 20px 50px;
         color: #313131;
         text-decoration: none;
-        font-size: 50px;
+        font-size: 40px;
         font-family: Girly, sans-serif;
         transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     }  
