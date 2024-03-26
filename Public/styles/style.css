@@ -88,3 +88,30 @@ span {
     color: #1f1f1f;
     font-family: Neguler, sans-serif;
 }
+
+@media (max-width: 768px) {
+    #home {
+        height: 100vh !important;
+        background-size: 100%, 80%, cover, cover;
+        background-position: center, center, center, center, center;
+    }
+
+    .navbar{
+        a{
+            font-size: 30px;
+        }
+    }
+
+    .circularTextAnim {
+        display: none;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .counterDate{
+        font-size: 30px;
+    }
+    
+}
