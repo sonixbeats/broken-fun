@@ -24,8 +24,8 @@
 
 //================================================================================================
 
-// Target date (June 20th)
-const targetDate = new Date('2024-06-20');
+// Target date (August 28, 2024) 
+const targetDate = new Date('2024-08-28');
 
 // Function to calculate remaining time
 function calculateRemainingTime() {
